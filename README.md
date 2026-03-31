@@ -1,4 +1,4 @@
-#Sales Performance Analysis Dashboard
+# Sales Performance Analysis Dashboard
 
 ## Project Overview
 
@@ -30,21 +30,23 @@ The main goals of this analysis are:
 ##Project Structure
 
 business-kpi-dashboard/
-│
-├── data/
-│ ├── raw/
-│ └── processed/
-│
-├── scripts/
-│ └── data_cleaning.R
-│
-├── dashboard/
-│ └── dashboard.twbx
-│
-├── outputs/
-│ └── dashboard.png
-│
-└── README.mdbusiness-kpi-dashboard/
+
+- data/  
+  - raw/  
+    - superstore.csv  
+  - clean/  
+    - clean_data.csv  
+
+- scripts/  
+  - data_cleaning.R  
+
+- output/  
+  - Dashboard-KPIs.png
+
+- dashboard/
+  - KPIs.twbx
+   
+ README.md
 
 ---
 
@@ -72,7 +74,7 @@ It includes:
 - **Top Products**: Best-selling items (colored by profit)  
 - **Negative Profit Products**: Items generating negative profit  
 
-![Dashboard](outputs/dashboard.png)
+![Dashboard](output/Dashboard-KPIs.png)
 
 ---
 
